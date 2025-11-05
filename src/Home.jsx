@@ -16,7 +16,7 @@ const Home = () => {
     <>
       <div className="bg-dark vh-100 text-light pt-5 d-flex align-items-center justify-content-center flex-column">
         <img
-          src="./assets/react.svg"
+          src="./src/assets/react.svg"
           alt="React Logo"
           height={"100px"}
           className="m-3"

@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
+import reactLogo from "../assets/react.svg";
 
 const Header = () => {
   return (
@@ -16,7 +17,7 @@ const Header = () => {
             >
               <img
                 alt=""
-                src="./src/assets/react.svg"
+                src={reactLogo}
                 width="40"
                 height="40"
                 className="d-inline-block align-top mx-2 my-auto"

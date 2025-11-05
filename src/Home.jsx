@@ -2,6 +2,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import React from "react";
 import { Link } from "react-router-dom";
+import reactLogo from "./assets/react.svg";
 
 const Home = () => {
   useGSAP(() => {
@@ -16,7 +17,7 @@ const Home = () => {
     <>
       <div className="bg-dark vh-100 text-light pt-5 d-flex align-items-center justify-content-center flex-column">
         <img
-          src="./src/assets/react.svg"
+          src={reactLogo}
           alt="React Logo"
           height={"100px"}
           className="m-3"

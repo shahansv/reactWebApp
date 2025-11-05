@@ -1,0 +1,26 @@
+#learn-react-btn {
+  transition: box-shadow 0.4s ease, transform 0.4s ease; 
+}
+
+#learn-react-btn:hover{
+box-shadow: 0px 0px 30px 0px #00d9ff53;
+transform: scale(1.05);
+}
+
+
+.nav-btn:hover{
+    color: #00d9ff;
+    background-color: #00d9ff1e;
+}
+
+.nav-btn {
+  color: #ffffff;
+  background-color: transparent;
+  transition:background-color 0.4s ease,color 0.4s ease;
+  cursor: pointer;
+}
+
+.nav-btn:hover {
+  color: #00d9ff;
+  background-color: #00d9ff1e;
+}

@@ -3,8 +3,8 @@ import "./App.css";
 import Home from "./Home";
 import Header from "./Header";
 import Blog from "./Blog";
-import Learn from "./Learn";
 import Community from "./Community";
+import Docs from "./Docs";
 
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/learn" element={<Learn />} />
+        <Route path="/docs" element={<Docs />} />
         <Route path="/community" element={<Community />} />
         <Route path="/blog" element={<Blog />} />
       </Routes>

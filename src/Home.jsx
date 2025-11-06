@@ -34,9 +34,9 @@ const Home = () => {
         >
           <Link
             className="mx-2 my-auto text-dark link-underline link-underline-opacity-0"
-            to={"/learn"}
+            to={"/docs"}
           >
-            Learn React
+            Get started
           </Link>
         </button>
       </div>

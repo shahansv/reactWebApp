@@ -34,9 +34,9 @@ const Header = () => {
             </Link>
             <Link
               className="mx-1 my-auto link-underline link-underline-opacity-0  fw-semibold p-2 px-3 rounded-5 nav-btn"
-              to={"/learn"}
+              to={"/docs"}
             >
-              Learn
+              Docs
             </Link>
             <Link
               className="mx-1 my-auto link-underline link-underline-opacity-0  fw-semibold p-2 px-3 rounded-5 nav-btn"

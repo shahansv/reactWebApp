@@ -13,7 +13,7 @@ const Docs = () => {
         </div>
         <div className="m-5">
           <div className="border p-4 rounded-4 border-secondary my-4">
-            <h1>Prerequisites</h1>
+            <h2>Prerequisites</h2>
             <p>Make sure you have Node.js installed on your computer.</p>
             <div className="border p-4 rounded-4 border-secondary d-flex flex-column justify-content-center">
               <pre className="text-danger m-1 fs-5">node --version</pre>
@@ -23,7 +23,7 @@ const Docs = () => {
         </div>
         <div className="m-5">
           <div className="border p-4 rounded-4 border-secondary my-4">
-            <h1>Create React App</h1>
+            <h2>Create React App</h2>
             <p>The easiest way to start a new React project is with Vite.</p>
             <div className="border p-4 rounded-4 border-secondary d-flex flex-column justify-content-center">
               <pre className="text-danger m-1 fs-5">npm create vite@latest</pre>
@@ -32,7 +32,7 @@ const Docs = () => {
         </div>
         <div className="m-5">
           <div className="border p-4 rounded-4 border-secondary my-4">
-            <h1>Start Development</h1>
+            <h2>Start Development</h2>
             <p>
               Navigate to your project directory and start the development
               server.
